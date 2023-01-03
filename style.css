@@ -47,3 +47,52 @@ h1 {
 .middle h1 {
     text-align: center;
 }
+
+.mission {
+    display: grid;
+    justify-content: center;
+}
+
+.third {
+    display: flex;
+    width: 80vw;
+}
+
+.icon1 {
+    width: 40%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #D6EAF8;
+    padding-left: 5px;
+}
+
+.icon2 {
+    width: 40%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #AED6F1;
+    padding-left: 5px;
+}
+
+.icon3 {
+    width: 40%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #E8DAEF;
+    padding-left: 5px;
+}
+
+.icon1 img {
+    width: 100px;
+}
+
+.icon2 img {
+    width: 100px;
+}
+
+.icon3 img {
+    width: 100px;
+}
