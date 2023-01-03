@@ -65,6 +65,7 @@ h1 {
     margin-right: 10px;
     background-color: #D6EAF8;
     padding-left: 5px;
+    border-radius: 10px;
 }
 
 .icon2 {
@@ -74,6 +75,7 @@ h1 {
     margin-right: 10px;
     background-color: #AED6F1;
     padding-left: 5px;
+    border-radius: 10px;
 }
 
 .icon3 {
@@ -83,6 +85,7 @@ h1 {
     margin-right: 10px;
     background-color: #E8DAEF;
     padding-left: 5px;
+    border-radius: 10px;
 }
 
 .icon1 img {
@@ -95,4 +98,28 @@ h1 {
 
 .icon3 img {
     width: 100px;
+}
+
+.last {
+    display: flex;
+    width: 100vw;
+}
+
+.footer {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.foot {
+    text-align: center;
+    color: white;
+}
+
+.border {
+    border-left: 7px solid blue;
+    /* border-image: linear-gradient(blue); */
+    border-image-slice: 1;
 }
